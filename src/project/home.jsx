@@ -52,12 +52,12 @@ class SwiggatoApp extends React.Component {
                 <div><img className="logo1" src={logo1} alt="" /></div>
                 <div className="logo-title">Swiggato</div>
                 <div>
-                <a className='logout1' href="/project/LoginSignup" role="button" onClick={handleClick}>
+                {/* <a className='logout1' href="/project/LoginSignup" role="button" onClick={handleClick}>
            Login
         </a>
         <a className='login1' href="/project/LoginSignup" role="button" onClick={handleClick1}>
            Signup
-        </a>
+        </a> */}
               </div>
               
               <div className="links">
@@ -102,17 +102,12 @@ class SwiggatoApp extends React.Component {
                   id="search-button"
                   className="search-bar1 search-submit1"
                   onClick={()=> {
-                    
-                    console.log("i am getting clicked")
                     window.location.href  = "/index"
                   
-                  
                   }
                   
                   }
-                >
-                  Find Food
-                </button>
+                >                </button>
               
             </div>
 
