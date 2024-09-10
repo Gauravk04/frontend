@@ -1,6 +1,5 @@
 import React from 'react';
 import './style1.css';
-import { ReactTyped } from 'react-typed';
 import ios from './home_images/iOS.webp';
 import logo1 from './home_images/logo1.jpg';
 import order from './home_images/order.png'
@@ -71,7 +70,7 @@ class SwiggatoApp extends React.Component {
             <div className="title1">
             <h1 className='type1' >
         {" "}
-        <ReactTyped strings={["Feeling hungry?","Unexpected guests?","Cooking gone wrong?","Game night?","Movie marathon?"]} typeSpeed={100} loop />
+        {/* <ReactTyped strings={["Feeling hungry?","Unexpected guests?","Cooking gone wrong?","Game night?","Movie marathon?"]} typeSpeed={100} loop /> */}
       </h1>
               <div className="sub-title1">Order food from favourite resturants near you.</div>
               
